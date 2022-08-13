@@ -1,0 +1,152 @@
+
+
+body{
+    background-image:url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+    }
+    
+    .full-page
+    {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }
+
+nav{
+    display: flex;
+    text-emphasis:left;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color:#BEA1A0;
+    transition: .4s;
+}
+
+    
+.title h1{
+    color:rgb(247, 243, 243);
+  font-style: italic;
+    font-size: 50px;
+    width: 250px;
+    margin: 30px auto;
+    text-align: center ;
+   
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    min-height: 400px;
+}
+.card{
+    height:365px ;
+    width: 400px;
+    padding: 20px 35px;
+    background:#FFFFFF;
+    border-color: rgb(201, 197, 197);
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.flower p{
+    color:rgb(114, 110, 110);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    color:rgb(114, 110, 110);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.card .button{
+  
+   
+      align-items: center;
+      appearance: none;
+      background:#BEA1A0;
+      background-size: calc(100% + 20px) calc(100% + 20px);
+      border-radius: 100px;
+      border-width: 0;
+      box-shadow: none;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-flex;
+      font-family: CircularStd,sans-serif;
+      font-size: 1rem;
+      height: auto;
+      justify-content: center;
+      line-height: 1.5;
+      padding: 6px 20px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transition: background-color .2s,background-position .2s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: top;
+      white-space: nowrap;
+    }
+    
+    .card .button:active,
+    .card .button:focus {
+      outline: none;
+    }
+    
+
+    
+    .card .button:focus:not(:active) {
+        box-shadow: 0 4px 3px #BEA1A0;
+    }
+    
+
+
+.card .button:hover{
+   
+    background:#BEA1A0;
+   
+
+}
+
+.Social{
+    color: #FFFFFF;
+    display: flex;
+    list-style: none;
+    float: right;
+   
+}
+

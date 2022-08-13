@@ -1,0 +1,119 @@
+
+body
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transform: all .2s linear;
+}
+
+section
+{
+position:relative ;
+width: 100%;
+height: 100%;
+/*display: flex;*/
+background: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0)), url(./back.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+display: flex;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    background:  rgba(255, 255, 255, 0.807);
+    border-radius: 5%; 
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%; */
+    /* text-align: center; */
+    padding: 25px;
+   
+    margin: auto;
+} 
+
+/* .box form{
+    padding: 20px;
+    width: 700px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+} */
+
+
+
+img{
+    width: 300px;
+    height: 85px;
+    background-size:100%;
+    align-self:center;
+}
+.h{
+    font-size: 20px;
+    color: rgb(127, 127, 127);
+    text-align: center;
+}
+
+
+input{
+    width: 100%;
+    padding: 15px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid rgb(127, 127, 127);
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(127, 127, 127);
+    background: white;
+    border-radius: 35px;
+    box-shadow: 0 3px 4px gray;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.box form .inputbox {
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin:10px 0; 
+
+}
+.box form .inputbox span{
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin: bottom 5px; 
+    display: block;
+}
+
+ input[type="submit"]
+ {
+    background: linear-gradient(#BEA1A0,#EBC0C2);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow:0 4px 3px gray;
+    border-radius: 35px;
+    box-shadow: 0 3px 4px gray;
+    width: 100%;
+    font-weight: 400;
+    padding: 15px 20px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
